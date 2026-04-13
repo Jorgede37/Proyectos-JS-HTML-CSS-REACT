@@ -1,0 +1,26 @@
+div
+{
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#body
+{
+    background-color: black;
+}
+
+img
+{
+    height: 300px;
+    width: 300px;
+
+    border:solid white, 5px;
+    align-self: center;
+}
+
+p
+{
+    font-size: 10px;
+}
