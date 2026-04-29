@@ -24,3 +24,32 @@ footer {
   color: blueviolet;
 }
 
+.left
+{
+  position: relative;
+  text-align: justify;
+  object-fit: cover;
+  width:50%;
+
+
+}
+
+.right
+{
+  text-align: justify;
+  object-fit: cover;
+  width:50%;
+  bottom:20%;
+  vertical-align: top;
+  margin-left:60%;
+  bottom: 60%;
+}
+
+.tile-image
+{
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin-right: 50px;
+}
+
