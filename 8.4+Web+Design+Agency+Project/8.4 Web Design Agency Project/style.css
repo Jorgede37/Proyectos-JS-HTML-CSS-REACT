@@ -26,10 +26,10 @@ footer {
 
 .left
 {
-  position: relative;
+  position: absolute;
   text-align: justify;
   object-fit: cover;
-  width:50%;
+  width:40%;
 
 
 }
@@ -37,12 +37,14 @@ footer {
 .right
 {
   text-align: justify;
-  object-fit: cover;
-  width:50%;
+  position: absolute;
+  display: inline-block;
+  width:40%;
   bottom:20%;
   vertical-align: top;
-  margin-left:60%;
-  bottom: 60%;
+  margin-left:50%;
+  bottom: 26%;
+  object-fit: cover;
 }
 
 .tile-image
@@ -51,5 +53,26 @@ footer {
   width: 300px;
   float: left;
   margin-right: 50px;
+}
+
+@media(min-width: 319px) and (max-height: 480px)
+{
+  body
+  {
+    width: 319px;
+    height: 400px;
+    background-color: red;
+  }
+}
+
+.card
+{
+  display:block
+}
+
+.card img
+{
+  display: inline;
+  object-fit: cover;
 }
 
