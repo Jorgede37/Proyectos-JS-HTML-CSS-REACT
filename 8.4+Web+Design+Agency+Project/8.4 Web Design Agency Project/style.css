@@ -26,10 +26,10 @@ footer {
 
 .left
 {
-  position: absolute;
+  float: left;
   text-align: justify;
   object-fit: cover;
-  width:40%;
+  width:45%;
 
 
 }
@@ -37,13 +37,10 @@ footer {
 .right
 {
   text-align: justify;
-  position: absolute;
-  display: inline-block;
-  width:40%;
+  width:45%;
   bottom:20%;
   vertical-align: top;
-  margin-left:50%;
-  bottom: 26%;
+  float: right;
   object-fit: cover;
 }
 
@@ -55,19 +52,49 @@ footer {
   margin-right: 50px;
 }
 
-@media(min-width: 319px) and (max-height: 480px)
+@media(max-width: 680px)
 {
   body
   {
-    width: 319px;
-    height: 400px;
     background-color: red;
+  }
+
+  .tile-image
+  {
+    width: 500px;
+    height: 300px;
+    float: none;
+    display: block;
+
+  }
+
+  .left
+  {
+    display: block;
+    float: none;
+  }
+
+  .right
+  {
+    display: block;
+    float: none;
+  }
+
+  .logo
+  {
+    width: 100px;
+    height: 20px;
+  }
+
+  .main > h1
+  {
+    font-size: 30px;  
   }
 }
 
 .card
 {
-  display:block
+  display:block;
 }
 
 .card img
