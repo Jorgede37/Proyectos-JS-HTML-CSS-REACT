@@ -54,17 +54,15 @@ footer {
 
 @media(max-width: 680px)
 {
-  body
-  {
-    background-color: red;
-  }
 
   .tile-image
   {
-    width: 500px;
-    height: 300px;
     float: none;
-    display: block;
+    display: inline;
+    width: 100%;
+    display: inline-block;
+    max-width: 600px;
+    height: auto;
 
   }
 
@@ -72,12 +70,17 @@ footer {
   {
     display: block;
     float: none;
+    text-align: justify;
+    width:auto
+    
   }
 
   .right
   {
     display: block;
     float: none;
+    width:auto;
+    
   }
 
   .logo
